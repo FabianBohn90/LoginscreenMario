@@ -29,12 +29,18 @@
                                 </constraints>
                             </imageView>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="username" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="PZG-Qb-H9g">
-                                <rect key="frame" x="110" y="139" width="210" height="34"/>
+                                <rect key="frame" x="169" y="139" width="92" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="350" id="aD4-qO-R8X"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YFS-Cc-37U">
-                                <rect key="frame" x="110" y="189" width="210" height="34"/>
+                                <rect key="frame" x="170" y="189" width="90" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="350" id="kVe-U0-Jh5"/>
+                                </constraints>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -87,12 +93,10 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ohm-i7-BMm" secondAttribute="trailing" constant="110" id="Ic7-JG-AhD"/>
                             <constraint firstItem="Z51-bA-dGl" firstAttribute="top" secondItem="59y-Bx-Pgm" secondAttribute="bottom" constant="66" id="J3h-HZ-fBC"/>
                             <constraint firstItem="YNS-71-YDt" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="-59" id="OsQ-Aj-bmW"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="YFS-Cc-37U" secondAttribute="trailing" constant="110" id="RGK-Ch-LOL"/>
                             <constraint firstItem="PZG-Qb-H9g" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="80" id="VF0-8w-Qjl"/>
                             <constraint firstItem="5yR-qn-BKQ" firstAttribute="leading" secondItem="59y-Bx-Pgm" secondAttribute="trailing" constant="8" id="VlX-FG-6II"/>
                             <constraint firstAttribute="trailing" secondItem="YNS-71-YDt" secondAttribute="trailing" constant="-349" id="cIi-iP-L4c"/>
                             <constraint firstItem="YFS-Cc-37U" firstAttribute="top" secondItem="PZG-Qb-H9g" secondAttribute="bottom" constant="16" id="ccV-hf-StX"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="PZG-Qb-H9g" secondAttribute="trailing" constant="110" id="glt-3S-AcB"/>
                             <constraint firstItem="Ohm-i7-BMm" firstAttribute="top" secondItem="YFS-Cc-37U" secondAttribute="bottom" constant="32" id="jtO-kx-dGz"/>
                             <constraint firstItem="PZG-Qb-H9g" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="sW6-Ac-8oF"/>
                             <constraint firstAttribute="bottom" secondItem="Z51-bA-dGl" secondAttribute="bottom" constant="30" id="tNd-Tf-vmf"/>
